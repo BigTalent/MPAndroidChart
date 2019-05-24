@@ -761,7 +761,7 @@ public class PieChart extends PieRadarChartBase<PieData> {
         if (maxangle > 360)
             maxangle = 360f;
 
-        if (maxangle < 90)
+        if (maxangle < -360)
             maxangle = 90f;
 
         this.mMaxAngle = maxangle;
